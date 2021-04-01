@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav>
-      <NavLink className="text-gray-500 font-mono m-1" to="/">
+    <nav className="mb-4">
+      <NavLink className="text-gray-500 font-mono m-1" to="/about">
         About
       </NavLink>
       <NavLink className="text-gray-500 font-mono m-1" to="/">

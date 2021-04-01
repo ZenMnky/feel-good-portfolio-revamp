@@ -1,21 +1,18 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import ContactIconGroup from '../Components/ContactIconGroup/ContactIconGroup';
 
-import PageNotFound from '../Old-Components/PageNotFound/PageNotFound';
+import Avatar from '../Components/Avatar/Avatar';
+import About from '../Components/About/About';
 
-import LandingView from '../Views/LandingView';
+console.log('Pursue what is meaningful, not what is expedient ✝️');
 
-console.log('Pursue what is meaningful, not what is expedient');
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Switch>
-        <Route exact path="/" component={LandingView} />
-        <Route component={PageNotFound} />
-      </Switch>
+    <div className="container">
+      <h1 className="title">JustinHager.Codes</h1>
+      <Avatar />
+      <ContactIconGroup />
+      <About />
     </div>
   );
 }
-
-export default App;

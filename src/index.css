@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 
+.container {
+  @apply p-6 max-w-xl mx-auto bg-white rounded-xl shadow-md flex flex-col items-center space-x-4 mt-2;
+}
+
+.title {
+  @apply text-xl font-sans text-black;
+}
+
 .social-btn {
   @apply mx-1;
 }
