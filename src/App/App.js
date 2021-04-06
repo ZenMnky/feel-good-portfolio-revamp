@@ -6,6 +6,7 @@ import About from '../Components/About/About';
 import Projects from '../Components/Projects/Projects';
 
 console.log('Pursue what is meaningful, not what is expedient ✝️');
+console.log('Site updated from: https://zenmnky-portfolio-react.vercel.app/');
 
 export default function App() {
   return (
